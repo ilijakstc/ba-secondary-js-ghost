@@ -16,6 +16,7 @@ on:
   pull_request:
     # The branches below must be a subset of the branches above
     branches: [ "manin" ]
+  workflow_dispatch: {}
   schedule:
     - cron: '28 21 * * 5'
 
